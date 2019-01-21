@@ -134,7 +134,7 @@ function chooseRandomCategory (categories) {
   var randomArrayIndex = Math.floor(Math.random() * categories.length);
 
   // return category object with that randomArrayIndex
-  return categories[randomArrayIndex];
+  return categories[randomArrayIndex].short_name;
 }
 
 
